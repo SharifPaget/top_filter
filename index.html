@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <!-- set the character set -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- first step to a responsive site -->
+        <title>Animal Filter</title>
+
+        <!-- FONT AWESOME -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+
+        <!-- Your styles should be called here -->
+        <link href="style.css" rel="stylesheet" />
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+    </head>
+
+    <body>
+        <!-- YOUR CONTENT GOES HERE -->
+        <div class="container">
+            <h1>Picking Animals</h1>
+            <p>Go ahead, pick a species!</p>
+            <div>
+                <select class="filter">
+                    <option value="item">Filter...</option>
+                    <option value="15">Between 5% to 15%</option>
+                    <option value="25">Between 15% to 25%</option>
+                    <option value="35">Between 25% to 35%</option>
+                    <option value="over">35% and over</option>
+                </select>
+            </div>
+            <div class="item active 15">
+                <img src="img/ant.jpg" />
+                <h3>Murray Hill, Gramercy/Stuyvesant Town</h3>
+            </div>
+
+            <div class="item active 15">
+                <img src="img/barucuda.jpg" />
+                <h3>Battery Park City, Greenwich Village/Soho</h3>
+            </div>
+
+            <div class="item active 15">
+                <img src="img/bee.jpg" />
+                <h3>Upper West Side/West Side</h3>
+            </div>
+
+            <div class="item active 15">
+                <img src="img/cheetah.jpg" />
+                <h3>Upper East Side</h3>
+            </div>
+
+            <div class="item active 15">
+                <img src="img/elephant.jpg" />
+                <h3>Riverdale, Fieldston/Kingsbridge</h3>
+            </div>
+
+            <div class="item active 25">
+                <img src="img/grasshopper.jpg" />
+                <h3>Chelsea, Clinton/Midtown Business</h3>
+            </div>
+
+            <div class="item active 35">
+                <img src="img/human.jpg" />
+                <h3>Hamilton Heights, Manhattanville/West Harlem</h3>
+            </div>
+
+            <div class="item active 35">
+                <img src="img/lizard.jpg" />
+                <h3>Central Harlem</h3>
+            </div>
+
+            <div class="item active 35">
+                <img src="img/mantis.jpg" />
+                <h3>East Harlem</h3>
+            </div>
+
+            <div class="item active 35">
+                <img src="img/nemo.jpg" />
+                <h3>Belmont, Crotona Park East/East Tremont</h3>
+            </div>
+
+            <div class="item active 35">
+                <img src="img/Queen.jpg" />
+                <h3>Concourse, Highbridge & Mount Eden</h3>
+            </div>
+
+            <div class="item active over">
+                <img src="img/shark.jpg" />
+                <h3>Chinatown/Lower East Side</h3>
+            </div>
+            <div class="item active over">
+                <img src="img/snake.jpg" />
+                <h3>Hunts Point, Longwood/Melrose</h3>
+            </div>
+            <div class="item active over">
+                <img src="img/tuna.jpg" />
+                <h3>Morris Heights, Fordham South/Mount Hope</h3>
+            </div>
+
+        </div>
+
+        <!-- the jQuery library. You need this to be able to use jQuery ($) -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Your javascript should be called here -->
+        <script src="main.js"></script>
+    </body>
+
+</html>
