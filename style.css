@@ -21,12 +21,21 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+h1 {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+h3 {
+  font-weight: lighter;
 }
 
 .container {
     max-width: 980px;
     margin: 0 auto;
-    padding: 5px;
+    padding: 25px;
 }
 
 .item {
@@ -68,4 +77,8 @@ select {
 
 @media(min-width: 729px) {
     /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+    .item {
+        width: 25%;
+        min-height: 310px;
+    }
 }
