@@ -42,9 +42,23 @@ h3 {
     width: 50%;
     padding: 5px;
     float: left;
-    min-height: 185px;
+    min-height: 300px;
     text-align: center;
     display: none;
+}
+
+.item .img {
+  position: relative;
+}
+
+.item .img .percent{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: auto;
+  padding: 10px;
+  background-color: rgba(0,0,0,.65);
+  color: #FFF;
 }
 
 .item.active{
@@ -52,7 +66,7 @@ h3 {
 }
 
 .item img {
-    display: block;
+    display: inline-block;
     width: 100%;
 }
 
@@ -68,7 +82,7 @@ select {
     /* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
     .item {
         width: 33%;
-        min-height: 310px;
+        min-height: 500px;
     }
     select {
         width: 33%;
@@ -79,6 +93,6 @@ select {
     /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
     .item {
         width: 25%;
-        min-height: 310px;
+        min-height: 500px;
     }
 }
