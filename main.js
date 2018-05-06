@@ -3,7 +3,7 @@ $(document).ready(function(){
     e.preventDefault();
 
     var filter = $(this).val();
-
+    
     $(".item.active").removeClass("active");
     $("." + filter).addClass("active");
   });
