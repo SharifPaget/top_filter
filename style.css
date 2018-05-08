@@ -39,9 +39,9 @@ h3 {
 
 .item {
   width: 50%;
-  padding: 5px;
   float: left;
-  min-height: 185px;
+  min-height: 326px;
+  padding: 5px;
   text-align: center;
   display: none;
   border-width: 5px;
@@ -70,9 +70,36 @@ h3 {
   color: #FFF;
 }
 
+/*.p25 {
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
+}
+
+.p35 {
+  border-style: solid;
+  border-width: 3px;
+  border-color: green;
+}
+
+.over {
+  border-style: solid;
+  border-width: 3px;
+  border-color: lime;
+}
+
+.p15 {
+  border-style: solid;
+  border-width: 3px;
+  border-color: purple;
+}
+  */
+
 select {
   display: block;
   width: 100%;
+  border-width: 1px;
+  border-color: black;
 }
 
 /* Tablet/Desktop overrides */
@@ -92,6 +119,6 @@ select {
   /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
   .item {
     width: 25%;
-    min-height: 310px;
+    min-height: 500px;
   }
 }
